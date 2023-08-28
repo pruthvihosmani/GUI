@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/pruthvihosmani/Desktop/GUI/part-number-kiosk/public/1200px-Logo_of_Bosch_Rexroth_AG.svg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; /* Center the image both vertically and horizontally */
+  color: #ffffff;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.rexroth {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(205, 46, 48);
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 14px;
+  color: rgb(96, 122, 144);
+  margin-top: 5px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  position: absolute; /* Added to position the logo */
+  top: 20px; /* Adjust top positioning */
+  left: 50%; /* Move to the horizontal center */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+/* ... Rest of the styles remain the same */
+
+
+.search-pane {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(98, 123, 143); /* Light blue shade */
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin-top: 0;
+  color: rgb(171, 214, 234); /* Light blue color */
+}
+
+.part-input {
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgb(26, 44, 68); /* Dark blue background */
+}
+
+.suggestions {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 160px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.suggestion {
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(26, 44, 68); /* Dark blue background */
+}
+
+.suggestion:hover {
+  background-color: #f2f2f2;
+}
+
+.no-matches {
+  padding: 10px;
+  color: rgb(96, 122, 144); /* Gray-blue color */
+}
+
+/* ... (Previous styles remain the same) */
+
+/* .logo-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+/* } */
+
